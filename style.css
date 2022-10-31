@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: #333;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(255, 246, 246), yellow);
+}
