@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
 h1 {
     text-align: center;
     padding-top: 2rem;
@@ -12,4 +19,30 @@ h1 {
 
 body {
     background-image: linear-gradient(to left, rgb(255, 246, 246), yellow);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: black;
+}
+
+h3 {
+    color: yellow;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+    outline-color: yellow;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
 }
